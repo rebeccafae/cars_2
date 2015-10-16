@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   get 'login' => 'sessions#login'
   post 'login' => 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
+
+  get '/auth/:provider/callback', to: 'sessions#oauth'
 end

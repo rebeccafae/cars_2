@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'omniauth-github'
 gem 'rspec-rails'
 gem 'guard-bundler'
 gem 'guard-rspec'
